@@ -137,6 +137,7 @@ class _ChatScreenState extends State<ChatScreen> {
             ),
             widget.user.isTyping == true
                 ? Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
                         widget.user.name,
