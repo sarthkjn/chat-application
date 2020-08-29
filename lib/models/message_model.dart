@@ -29,58 +29,58 @@ final User greg = User(
   name: 'Greg',
   imageUrl: 'assets/images/greg.jpg',
 );
-final User james = User(
+final User vatsal = User(
   id: 2,
-  name: 'James',
+  name: 'Vatsal',
   imageUrl: 'assets/images/james.jpg',
 );
-final User john = User(
+final User roy = User(
   id: 3,
-  name: 'John',
+  name: 'Roy',
   imageUrl: 'assets/images/john.jpg',
 );
-final User olivia = User(
+final User sundar = User(
   id: 4,
-  name: 'Olivia',
-  imageUrl: 'assets/images/olivia.jpg',
+  name: 'Sundar Pichai',
+  imageUrl: 'assets/images/sundar.jpg',
 );
-final User sam = User(
+final User mukesh = User(
   id: 5,
-  name: 'Sam',
-  imageUrl: 'assets/images/sam.jpg',
+  name: 'Mukesh Ambani',
+  imageUrl: 'assets/images/mukesh.jpg',
 );
 final User sophia = User(
   id: 6,
   name: 'Sophia',
   imageUrl: 'assets/images/sophia.jpg',
 );
-final User steven = User(
+final User bill = User(
   id: 7,
-  name: 'Steven',
-  imageUrl: 'assets/images/steven.jpg',
+  name: 'Bill Gates',
+  imageUrl: 'assets/images/bill.jpg',
 );
 
 // FAVORITE CONTACTS
-List<User> favorites = [sam, steven, olivia, john, greg];
+List<User> favorites = [mukesh, bill, sundar, roy, greg];
 
 // EXAMPLE CHATS ON HOME SCREEN
 List<Message> chats = [
   Message(
-    sender: james,
+    sender: vatsal,
     time: '5:30 PM',
     text: 'Hey, how\'s it going? What did you do today?',
     isLiked: false,
     unread: true,
   ),
   Message(
-    sender: olivia,
+    sender: sundar,
     time: '4:30 PM',
     text: 'Hey, how\'s it going? What did you do today?',
     isLiked: false,
     unread: true,
   ),
   Message(
-    sender: john,
+    sender: roy,
     time: '3:30 PM',
     text: 'Hey, how\'s it going? What did you do today?',
     isLiked: false,
@@ -94,14 +94,14 @@ List<Message> chats = [
     unread: true,
   ),
   Message(
-    sender: steven,
+    sender: bill,
     time: '1:30 PM',
     text: 'Hey, how\'s it going? What did you do today?',
     isLiked: false,
     unread: false,
   ),
   Message(
-    sender: sam,
+    sender: mukesh,
     time: '12:30 PM',
     text: 'Hey, how\'s it going? What did you do today?',
     isLiked: false,
@@ -119,44 +119,44 @@ List<Message> chats = [
 // EXAMPLE MESSAGES IN CHAT SCREEN
 List<Message> messages = [
   Message(
-    sender: james,
+    sender: vatsal,
     time: '5:30 PM',
-    text: 'Hey, how\'s it going? What did you do today?',
+    text: 'Yes!!',
     isLiked: true,
     unread: true,
   ),
   Message(
     sender: currentUser,
     time: '4:30 PM',
-    text: 'Just walked my doge. She was super duper cute. The best pupper!!',
+    text: 'Did you learn Data Structures and Algorithms as well?',
     isLiked: false,
     unread: true,
   ),
   Message(
-    sender: james,
+    sender: vatsal,
     time: '3:45 PM',
-    text: 'How\'s the doggo?',
+    text: 'It is very interesting',
     isLiked: false,
     unread: true,
   ),
   Message(
-    sender: james,
+    sender: vatsal,
     time: '3:15 PM',
-    text: 'All the food',
+    text: 'C++ programming',
     isLiked: true,
     unread: true,
   ),
   Message(
     sender: currentUser,
     time: '2:30 PM',
-    text: 'Nice! What kind of food did you eat?',
+    text: 'Nice! Which one?',
     isLiked: false,
     unread: true,
   ),
   Message(
-    sender: james,
+    sender: vatsal,
     time: '2:00 PM',
-    text: 'I ate so much food today.',
+    text: 'I finally learned a programming language.',
     isLiked: false,
     unread: true,
   ),
