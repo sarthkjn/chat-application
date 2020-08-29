@@ -2,8 +2,7 @@ import 'package:chatApp/models/user_model.dart';
 
 class Message {
   final User sender;
-  final String
-      time; // Would usually be type DateTime or Firebase Timestamp in production apps
+  final String time;
   final String text;
   final bool isLiked;
   final bool unread;
@@ -17,7 +16,7 @@ class Message {
   });
 }
 
-// YOU - current user
+// current user
 final User currentUser = User(
   id: 0,
   name: 'Current User',
