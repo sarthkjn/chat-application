@@ -1,4 +1,4 @@
-import 'package:chatApp/models/user_model.dart';
+import 'package:chatApp/models/user.dart';
 
 class Message {
   final User sender;

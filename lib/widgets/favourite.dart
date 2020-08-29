@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:chatApp/models/message_model.dart';
-import 'package:chatApp/screens/chat_screen.dart';
+import 'package:chatApp/models/message.dart';
+import 'package:chatApp/screens/chat.dart';
 
 class FavoriteContacts extends StatelessWidget {
   @override
