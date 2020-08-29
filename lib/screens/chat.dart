@@ -135,9 +135,24 @@ class _ChatScreenState extends State<ChatScreen> {
             SizedBox(
               width: 10,
             ),
-            Text(
-              widget.user.name,
-            ),
+            widget.user.isTyping == true
+                ? Column(
+                    children: [
+                      Text(
+                        widget.user.name,
+                      ),
+                      Text(
+                        'typing...',
+                        style: TextStyle(
+                          color: Colors.grey[200],
+                          fontSize: 10,
+                        ),
+                      )
+                    ],
+                  )
+                : Text(
+                    widget.user.name,
+                  ),
           ],
         ),
         elevation: 0.0,
