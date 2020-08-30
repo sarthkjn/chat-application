@@ -25,6 +25,10 @@ class App extends StatelessWidget {
             {
               return HomeScreen();
             }
+          case Story.storyRoute:
+            {
+              return Story(file: settings.arguments);
+            }
           case ChatScreen.chatScreenRoute:
             {
               return ChatScreen(user: settings.arguments);

@@ -75,7 +75,7 @@ class ChatBlock extends StatelessWidget {
             ],
           ),
           subtitle: Text(
-            chat.text,
+            chat.sender.isTyping == true ? 'typing...' : chat.text,
             style: TextStyle(
               color: Colors.grey,
               fontSize: 15.0,

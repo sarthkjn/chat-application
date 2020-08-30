@@ -1,4 +1,8 @@
 import 'package:badges/badges.dart';
+<<<<<<< HEAD
+import 'package:chatApp/screens/pages.dart';
+=======
+>>>>>>> f573570c396b580805106d60bb5e898318b91d21
 import 'package:flutter/material.dart';
 
 class StatusPage extends StatelessWidget {
@@ -35,18 +39,22 @@ class StatusPage extends StatelessWidget {
           'assets/images/sophia.jpg',
           'Today, 12:13 PM',
           false,
+<<<<<<< HEAD
+          context,
         ),
         storyWidget(
           'Vatsal',
           'assets/images/james.jpg',
           'Yesterday, 01:13 PM',
           false,
+          context,
         ),
         storyWidget(
           'Akul',
           'assets/images/greg.jpg',
           'Today, 08:13 PM',
           false,
+          context,
         ),
         label('Viewed Updates', context),
         storyWidget(
@@ -54,18 +62,42 @@ class StatusPage extends StatelessWidget {
           'assets/images/steven.jpg',
           'Today, 08:33 PM',
           true,
+          context,
         ),
         storyWidget(
           'Somya',
           'assets/images/sam.jpg',
           'Today, 08:31 PM',
           true,
+          context,
         ),
         storyWidget(
           'Olivia',
           'assets/images/olivia.jpg',
           'Today, 08:29 PM',
           true,
+          context,
+=======
+        ),
+        storyWidget(
+          'Vatsal',
+          'assets/images/sophia.jpg',
+          'Yesterday, 01:13 PM',
+          false,
+        ),
+        storyWidget(
+          'Akul',
+          'assets/images/sophia.jpg',
+          'Today, 08:13 PM',
+          false,
+        ),
+        label('Viewed Updates', context),
+        storyWidget(
+          'Akul',
+          'assets/images/sophia.jpg',
+          'Today, 08:13 PM',
+          true,
+>>>>>>> f573570c396b580805106d60bb5e898318b91d21
         ),
       ],
     );
@@ -85,8 +117,18 @@ class StatusPage extends StatelessWidget {
     String image,
     String time,
     bool isViewed,
+<<<<<<< HEAD
+    BuildContext context,
+  ) {
+    List<String> enjoy = [text, image, time];
+    return ListTile(
+      onTap: () {
+        Navigator.of(context).pushNamed(Story.storyRoute, arguments: enjoy);
+      },
+=======
   ) {
     return ListTile(
+>>>>>>> f573570c396b580805106d60bb5e898318b91d21
       title: Text(
         text,
         style: TextStyle(
