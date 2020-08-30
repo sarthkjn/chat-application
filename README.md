@@ -1,6 +1,17 @@
-# chatApp
+# ChatApp
 
-A new Flutter project.
+ChatApp is an Android/iOS chat application which provides an user friendly and beautiful UI to its users.
+
+## UI Features
+
+Chat
+Status/Story
+Voice/Video Call
+## Built with
+
+Flutter
+Visual Studio Code
+Dart
 
 ## Getting Started
 
