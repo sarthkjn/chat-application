@@ -1,4 +1,5 @@
 import 'package:chatApp/models/models.dart';
+import 'package:chatApp/screens/pages.dart';
 import 'package:flutter/material.dart';
 import 'package:chatApp/widgets/widgets.dart';
 
@@ -17,14 +18,15 @@ class _HomeScreenState extends State<HomeScreen> {
         );
       },
     ),
-    ListView.builder(
+    StatusPage(),
+    /*ListView.builder(
       itemCount: chats.length,
       itemBuilder: (BuildContext context, int index) {
         return ChatBlock(
           chat: chats[index],
         );
       },
-    ),
+    ),*/
     ListView.builder(
       itemCount: chats.length,
       itemBuilder: (BuildContext context, int index) {
