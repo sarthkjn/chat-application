@@ -5,6 +5,7 @@ The aim of this application is to provide a realistic, user friendly, cleaner an
 
 This project was made solely for Zomentum Hiring Assignment in which the candidates were expected to develop an UI of a chat application. Thus, the application developed in this project is just an UI and does not provides backend support. However, backend support may later be added.
 
+
 ## UI Features
 
 Easy to use
@@ -47,3 +48,6 @@ Step 4: Enjoy!
 <img src="https://user-images.githubusercontent.com/46296762/91663590-6fba4c00-eb07-11ea-99f5-4cb45da6689d.jpg" width="250" height="440">
 <img src="https://user-images.githubusercontent.com/46296762/91656106-a0808e00-ead3-11ea-9784-70dc3b6b86d7.jpg" width="250" height="440">
 <img src="https://user-images.githubusercontent.com/46296762/91656126-c9088800-ead3-11ea-8ad3-77261adbf285.jpg" width="250" height="440">
+
+
+Developer's Note: Developing Flutter application is always fun. I really enjoyed developing this chat application and I look forward for the opportunity to work with Zomentus in near future.
