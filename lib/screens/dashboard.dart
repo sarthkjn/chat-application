@@ -28,17 +28,6 @@ class _HomeScreenState extends State<HomeScreen> {
         );
       },
     ),*/
-<<<<<<< HEAD
-=======
-    ListView.builder(
-      itemCount: chats.length,
-      itemBuilder: (BuildContext context, int index) {
-        return ChatBlock(
-          chat: chats[index],
-        );
-      },
-    ),
->>>>>>> f573570c396b580805106d60bb5e898318b91d21
   ];
   List<Tab> tabs = [
     Tab(
