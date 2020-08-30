@@ -58,13 +58,13 @@ class StatusPage extends StatelessWidget {
         storyWidget(
           'Somya',
           'assets/images/sam.jpg',
-          'Today, 08:32 PM',
+          'Today, 08:31 PM',
           true,
         ),
         storyWidget(
           'Olivia',
           'assets/images/olivia.jpg',
-          'Today, 08:30 PM',
+          'Today, 08:29 PM',
           true,
         ),
       ],
