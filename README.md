@@ -4,14 +4,14 @@ ChatApp is an Android/iOS chat application which provides an user friendly and b
 
 ## UI Features
 
-Chat
-Status/Story
-Voice/Video Call
+1)Chat
+2)Status/Story
+3)Voice/Video Call
 ## Built with
 
-Flutter
-Visual Studio Code
-Dart
+1)Flutter
+2)Visual Studio Code
+3)Dart
 
 ## Getting Started
 
