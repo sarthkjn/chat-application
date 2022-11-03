@@ -3,7 +3,7 @@
 ChatApp is a chat application built on Flutter which is a cross development technology provided by Google ie it will run on both Android and iOS devices.
 The aim of this application is to provide a realistic, user friendly, cleaner and beautiful user interface for its customers. This application is inspired by Whatsapp and the functionalities are similar to Whatsapp with an emphasis made on providing a cleaner and beautiful UI and text fonts. 
 
-This project was made solely for Zomentum Hiring Assignment in which the candidates were expected to develop an UI of a chat application. Thus, the application developed in this project is just an UI and does not provides backend support. However, backend support may later be added.
+The application developed in this project is just an UI and does not provides backend support. However, backend support may later be added.
 
 
 ## UI Features
