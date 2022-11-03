@@ -49,4 +49,4 @@ Step 4: Enjoy!
 <img src="https://user-images.githubusercontent.com/46296762/91656126-c9088800-ead3-11ea-8ad3-77261adbf285.jpg" width="250" height="440">
 
 
-Developer's Note: Developing Flutter application is always fun. I really enjoyed developing this chat application and I look forward for the opportunity to work with Zomentus in near future.
+Developer's Note: Developing Flutter application is always fun. I really enjoyed developing this chat application.
